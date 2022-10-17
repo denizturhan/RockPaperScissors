@@ -1,0 +1,104 @@
+body{
+    
+    color: rgb(206, 224, 45);
+    
+   
+
+    
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+
+    
+     
+    background: linear-gradient(45deg, #f50606, #0b07c0);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+
+
+
+
+
+
+}
+
+
+
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    color: #fff;
+    background: #333;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+    margin: 10px;
+
+
+}
+
+button:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #fff;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover {
+    color: #333;
+}
+
+button:hover:after {
+    height: 180%;
+}
+
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+    
+
+
+   
+
+    
+   
+    
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
