@@ -1,3 +1,3 @@
-# taskmakas oyunu
+# Simple js game 
 
 
